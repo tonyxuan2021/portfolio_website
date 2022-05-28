@@ -1,0 +1,28 @@
+.portfolio {
+    margin-top: 3rem;
+
+    &__individual {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    // &__wrapper {
+
+    // }
+
+    &__header {
+        text-align: center;
+    }
+
+    &__img {
+        width: 100%;
+
+        &__wrapper {
+            width: 200px;
+        }
+    }
+
+
+}
