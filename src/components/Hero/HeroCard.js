@@ -44,7 +44,7 @@ const HeroCard = () => {
           system.
         </p>
         <div className="hero__card__tools">
-          <p className="hero__card__kit">Financial knowledge in my knowledge kit:</p>
+          <p className="hero__card__kit">Financial knowledge in my tool kit:</p>
           <ul className="hero__card__list">
             <li>Bookkeeping</li>
             <li>Canadian taxation</li>
