@@ -1,11 +1,14 @@
 
 
 .portfolio {
+    padding-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+
 
     &__title {
         position: absolute;
         color: white;
-        font-size: 5rem;
+        font-size: 4rem;
         top: 5rem;
         left: 1rem;
     }
@@ -26,7 +29,8 @@
     }
 
     &__header {
-        padding: 1rem 2rem;
+        padding: 2rem 2rem;
+        text-align: center;
     }
 
     &__overlay {
@@ -35,7 +39,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         font-weight: bold;
         color: white;
         display: flex;

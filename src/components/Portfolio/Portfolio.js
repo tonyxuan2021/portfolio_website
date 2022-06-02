@@ -5,7 +5,7 @@ import book from "../../assets/booktown.jpg";
 const Portfolio = () => {
   return (
     <div className="portfolio">
-      <h3 className="portfolio__header">My Recent Work</h3>
+      <h3 className="portfolio__header" id="portfolio">My Recent Work</h3>
       <div className="portfolio__img__wrapper">
         <div className="portfolio__img__individual">
         <h3 className="portfolio__title">The Booktown</h3>

@@ -3,23 +3,51 @@
     &__wrapper {
         text-align: center;
         background-color: white;
-        margin: 1rem 2rem;
-        padding: 1rem 2rem;
+        margin: 0 4rem;
+        padding: 4rem 4rem;
         border: 1px solid lightgray;
-        border-radius: 4px;
+        border-bottom: none;
+        border-radius: 8px;
+        height: 622px;
+        box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%);
+
+        &:nth-child(3) {
+            border-bottom: 1px solid lightgray;
+            margin-bottom: 4rem;
+        }
     }
 
     &__img {
         height: 50px;
+        margin-bottom: 2rem;
+    }
+
+    &__title {
+        margin-bottom: 2rem;
+    }
+
+    &__text {
+        color: #141c3a;
+    }
+
+    &__kit {
+        margin-bottom: 2rem;
+        font-weight: 600;
     }
 
     &__list {
         list-style: none;
         padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        li {
+            color: #141c3a;
+        }
     }
 
     &__tools {
         margin-top: 3rem;
     }
 }
-

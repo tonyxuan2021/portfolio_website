@@ -4,9 +4,33 @@
 
     &__wrapper {
         display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        // margin: 2rem;
+        background-color: #333230;
+        padding: 4rem 0;
+
     }
 
     &__icon {
         display: flex;
+        gap: 2rem;
+
+        img {
+            width: 30px;
+        }
+
+    }
+
+    &__list {
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        gap: 2rem;
+        text-align: center;
     }
 }

@@ -33,10 +33,7 @@ class Header extends Component {
 
           {isActive && <ul>
             <li>
-              <a href="/#">Portfolio</a>
-            </li>
-            <li>
-              <a href="/#">About me</a>
+              <a href="/#portfolio">Portfolio</a>
             </li>
             <li>
               <a href="/#">Contact me</a>
