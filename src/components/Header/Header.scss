@@ -6,8 +6,9 @@
         justify-content: space-between;
         flex-direction: column;
         gap: 2rem;
-        background-color: #edede9;
+        background-color: #333230;
         padding: 1rem 2rem;
+        color: white;
 
         @include tablet {
             flex-direction: row;
@@ -30,7 +31,7 @@
             padding-bottom: 1.2rem;
 
             a {
-                color: black;
+                color: white;
                 text-decoration: none;
             }
         }
@@ -55,7 +56,7 @@
     &__bar {
         height: 3px;
         width: 100%;
-        background-color: black;
+        background-color: white;
         border-radius: 10px;
     }
 }

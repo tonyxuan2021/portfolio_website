@@ -1,28 +1,25 @@
 import "./Portfolio.scss";
-import React from 'react';
-import landingPage from "../../assets/landing_page.png";
+import React from "react";
+import book from "../../assets/booktown.jpg";
 
 const Portfolio = () => {
   return (
     <div className="portfolio">
-        <h3 className="portfolio__header">My Recent Work</h3>
-        <div className="portfolio__wrapper">
-            <div className="portfolio__individual">
-                <div className="portfolio__img__wrapper">
-                    <img src={landingPage} className="portfolio__img"></img>
-                </div>
-                <div className="portfolio__text__wrapper">
-                    <h4>The Booktown</h4>
-                    <p>This is a book app</p>
-                    <p>Author</p>
-                    <div>
-                        <a>Visit site</a>
-                    </div>
-                </div>
-            </div>
+      <h3 className="portfolio__header">My Recent Work</h3>
+      <div className="portfolio__img__wrapper">
+        <div className="portfolio__img__individual">
+        <h3 className="portfolio__title">The Booktown</h3>
+          <img className="portfolio__img" src={book}></img>
+          <div className="portfolio__overlay portfolio__overlay--background">
+            <p className="portfolio__overlay__text">
+              A web application to buy and sell books
+            </p>
+            <a className="portfolio__overlay__link" href="https://www.google.com/">Visit Website</a>
+          </div>
         </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Portfolio
+export default Portfolio;
