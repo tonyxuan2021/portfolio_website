@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Testimonials.scss";
-import people from "../../data/data";
+import people from "../../data/reviewData";
 import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
 
 const Testimonials = () => {

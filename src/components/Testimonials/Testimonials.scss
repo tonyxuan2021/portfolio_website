@@ -3,11 +3,12 @@
     &__wrapper {
         text-align: center;
         padding: 4rem 2rem;
+        margin-bottom: 3rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
-        height: 550px;
+        height: 600px;
     }
 
     &__friend {
