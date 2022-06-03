@@ -4,10 +4,6 @@ import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiTwotoneMail } from "react-icons/ai";
 
-
-import linkedin from "../../assets/linkedin.png";
-import email from "../../assets/email.png";
-
 const Footer = () => {
   return (
     <div className="footer__wrapper">

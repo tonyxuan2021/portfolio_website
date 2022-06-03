@@ -1,3 +1,6 @@
+@use "../../styles/mixins"as *;
+
+
 #message {
     height: 14rem;
 }
@@ -9,11 +12,19 @@ label {
 .contact {
     &__title {
         text-align: center;
-        margin-bottom: 3rem;
+        margin-bottom: 5rem;
+
+        @include tablet {
+            margin-bottom: 6rem;
+        }
     }
 
     &__wrapper {
         padding: 1rem 2rem;
+
+        @include tablet {
+            padding: 2rem 16rem;
+        }
     }
 
     &__form {
@@ -40,6 +51,10 @@ label {
                 flex-direction: column;
                 gap: 2rem;
                 margin-bottom: 2rem;
+
+                @include tablet {
+                    flex-direction: row;
+                }
             }
         }
     }

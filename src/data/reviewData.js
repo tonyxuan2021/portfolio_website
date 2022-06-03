@@ -4,7 +4,7 @@ const review = [
         id:1,
         name: "Carolaine Bonk",
         role: "Web dev graduate, BrainStation (March 2022, Remote), Web 3.0 enthusiast, lifelong friend of Tony",
-        text: "Tony has completely surpassed our expectations as a teammate from the InStock team project. I STRONGLY recommend Tony to EVERYONE interested in hiring a full stack web developer. Tony will be a great asset to your team!",
+        text: `"Tony has completely surpassed our expectations as a teammate from the InStock team project. I STRONGLY recommend Tony to EVERYONE interested in hiring a full stack web developer. Tony will be a great asset to your team!"`,
         image: "https://assets.codepen.io/7439974/Carol.jpg"
     },
     {

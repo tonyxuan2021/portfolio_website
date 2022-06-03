@@ -1,4 +1,5 @@
 
+@use "../../styles/mixins"as *;
 
 .footer {
 
@@ -11,6 +12,11 @@
         // margin: 2rem;
         background-color: #333230;
         padding: 4rem 0;
+
+        @include tablet {
+            flex-direction: row;
+            padding: 2rem 4rem;
+        }
 
     }
 
@@ -42,5 +48,9 @@
         color: white;
         gap: 2rem;
         text-align: center;
+
+        @include tablet {
+            flex-direction: row;
+        }
     }
 }
