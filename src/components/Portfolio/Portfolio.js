@@ -1,7 +1,8 @@
 import "./Portfolio.scss";
 import React, { useState } from "react";
-import book from "../../assets/booktown.jpg";
 import portfolioData from "../../data/portfolioData";
+import uniqid from "uniqid";
+
 
 const Portfolio = () => {
   return (
@@ -9,15 +10,15 @@ const Portfolio = () => {
       <h3 className="portfolio__header" id="portfolio">
         My Recent Work
       </h3>
-      <div className="portfolio__img__individual">
+      <div >
         {portfolioData && portfolioData.map((dataObj) => {
           return (
-            <div>
-              <h3 className="portfolio__title">The Booktown</h3>
+            <div className="portfolio__img__individual" key={uniqid()}>
+              <h3 className="portfolio__title">{dataObj.title}</h3>
               <img className="portfolio__img" src={dataObj.image}></img>
               <div className="portfolio__overlay portfolio__overlay--background">
                 <p className="portfolio__overlay__text">
-                  A web application to buy and sell books
+                  {dataObj.desc}
                 </p>
                 <a
                   className="portfolio__overlay__link"

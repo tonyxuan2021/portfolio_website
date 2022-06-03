@@ -1,9 +1,12 @@
 import React from "react";
 import "./Footer.scss";
-import github from "../../assets/github.png";
+import { AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
+import { AiTwotoneMail } from "react-icons/ai";
+
+
 import linkedin from "../../assets/linkedin.png";
 import email from "../../assets/email.png";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -15,13 +18,13 @@ const Footer = () => {
       </ul>
       <div className="footer__icon">
         <a href="https://github.com/tonyxuan2021">
-          <img src={github}></img>
+          <AiFillGithub className="footer__github"/>
         </a>
         <a href="https://www.linkedin.com/in/xuan-ye/">
-          <img src={linkedin}></img>
+          <AiFillLinkedin className="footer__linkedin"/>
         </a>
         <a href="mailto:tonyyexuan@gmail.com?Subject=Greetings!">
-          <img src={email}></img>
+          <AiTwotoneMail className="footer__email"/>
         </a>
       </div>
     </div>

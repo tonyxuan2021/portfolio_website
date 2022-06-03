@@ -19,6 +19,7 @@
 
     &__img {
         height: 50px;
+        width: 50px;
         margin-bottom: 2rem;
     }
 
@@ -32,7 +33,9 @@
 
     &__kit {
         margin-bottom: 2rem;
-        font-weight: 600;
+        font-weight: bold;
+        font-size: 1.17em;
+        text-decoration: underlinevc;
     }
 
     &__list {

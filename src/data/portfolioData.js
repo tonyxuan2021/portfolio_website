@@ -7,9 +7,9 @@ const review = [
   },
   {
     id: 2,
-    title: "The Booktown",
-    desc: "A web application to buy and sell books",
-    image: "https://assets.codepen.io/7439974/booktown.jpg",
+    title: "The Hotel Finder",
+    desc: "A web application to browse hotels according to city name worldwide",
+    image: "https://assets.codepen.io/7439974/hotel.jpg",
   },
 ];
 
