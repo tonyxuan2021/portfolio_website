@@ -19,7 +19,7 @@ class Header extends Component {
 
     return (
       <div className="header__wrapper">
-        <p>tony.me</p>
+        <p>xuanye.ca</p>
         <div className="header__nav">
           <a
             href="/#"

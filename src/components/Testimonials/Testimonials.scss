@@ -1,4 +1,6 @@
 
+@use "../../styles/mixins" as *;
+
 .test {
     &__wrapper {
         text-align: center;
@@ -9,6 +11,10 @@
         align-items: center;
         flex-direction: column;
         height: 600px;
+
+        @include tablet {
+            padding: 4rem 8rem;
+        }
     }
 
     &__friend {

@@ -1,10 +1,16 @@
+@use "../../styles/mixins"as *;
 
 
 .portfolio {
     padding: 0 2rem 4rem 2rem;
     border-bottom: 1px solid lightgray;
 
-
+    &__wrapper {
+        @include tablet {
+            display: flex;
+            gap: 2rem;
+        }
+    }
 
     &__title {
         position: absolute;
@@ -33,6 +39,10 @@
     &__header {
         padding: 2rem 2rem;
         text-align: center;
+
+        @include tablet {
+            margin-bottom: 5rem;
+        }
     }
 
     &__overlay {

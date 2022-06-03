@@ -1,7 +1,4 @@
 import React from "react";
-import coding from "../../assets/coding.svg";
-import calculator from "../../assets/calculator.svg";
-import pet from "../../assets/pet.svg";
 import "./HeroCard.scss";
 import { AiOutlineCode } from "react-icons/ai";
 import { AiFillCalculator } from "react-icons/ai";
@@ -11,7 +8,7 @@ import { MdPets } from "react-icons/md";
 
 const HeroCard = () => {
   return (
-    <div>
+    <div className="hero__card__main">
       <div className="hero__card__wrapper">
         <AiOutlineCode className="hero__card__img"/>
         <h3 className="hero__card__title">Full Stack Web Developer</h3>
@@ -45,7 +42,7 @@ const HeroCard = () => {
           system.
         </p>
         <div className="hero__card__tools">
-          <p className="hero__card__kit">Financial knowledge in my tool kit</p>
+          <p className="hero__card__kit">Financial tools in my tool kit</p>
           <ul className="hero__card__list">
             <li>Bookkeeping</li>
             <li>Canadian taxation</li>
