@@ -1,5 +1,6 @@
 
 import React, { Component } from 'react'
+import Contact from '../components/Contact/Contact';
 import Hero from '../components/Hero/Hero';
 import HeroCard from '../components/Hero/HeroCard';
 import Portfolio from '../components/Portfolio/Portfolio';
@@ -13,6 +14,7 @@ class HomePage extends Component {
           <HeroCard />
           <Portfolio />
           <Testimonials />
+          <Contact />
       </div>
     )
   }

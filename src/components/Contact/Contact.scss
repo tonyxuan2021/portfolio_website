@@ -1,0 +1,61 @@
+#message {
+    height: 14rem;
+}
+
+label {
+    margin-bottom: 1rem;
+}
+
+.contact {
+    &__title {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    &__wrapper {
+        padding: 1rem 2rem;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__input {
+        width: 100%;
+        height: 40px;
+        border: 1px solid lightgray;
+        ;
+
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            &--top {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
+    &__btn {
+        color: rgba(0, 0, 0, 0.6);
+        border: 1px solid lightgray;
+        font-weight: 300;
+        font-size: 1.6rem;
+        background-color: #ffb703;
+        text-decoration: none;
+        border-radius: 30px;
+        padding: 1rem;
+        margin: 2rem;
+        cursor: pointer;
+        width: 20%;
+        margin-left: 40%;
+    }
+}
