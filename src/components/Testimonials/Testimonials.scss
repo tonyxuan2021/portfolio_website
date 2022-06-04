@@ -17,6 +17,10 @@
         @include tablet {
             padding: 4rem 8rem;
         }
+
+        @include desktop {
+            padding: 4rem 8.8rem;
+        }
     }
 
     &__friend {
@@ -30,15 +34,25 @@
     &__quote {
         line-height: 1.6;
         margin-bottom: 3rem;
+        font-size: 2rem;
+
+        @include desktop {
+            width: 50%;
+            line-height: 2;
+        }
     }
 
     &__name {
-        font-weight: bold;
+        font-weight: bolder;
         margin-bottom: 1rem;
     }
 
     &__title {
         margin-bottom: 6rem;
+
+        @include desktop {
+            font-size: 3.6rem;
+        }
     }
 
     &__role {
@@ -57,5 +71,9 @@
         font-size: 2.5rem;
         color: #333230;
         cursor: pointer;
+
+        @include desktop {
+            font-size: 3.5rem;
+        }
     }
 }

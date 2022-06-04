@@ -18,6 +18,10 @@
             overflow: hidden;
             margin-bottom: 5rem;
         }
+
+        @include desktop {
+            margin: 0 8.8rem;
+        }
     }
 
     &__wrapper {
@@ -39,6 +43,10 @@
             box-shadow: none;
             border-right: 1px solid lightgray;
             border-radius: 0;
+        }
+
+        @include desktop {
+            height: 680px;
         }
 
         &:nth-child(3) {

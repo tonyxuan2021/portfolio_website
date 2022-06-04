@@ -33,10 +33,10 @@ const Testimonials = () => {
 
   return (
     <div className="test__wrapper">
-      <h3 className="test__title">Testimonials</h3>
+      <h2 className="test__title">Testimonials</h2>
       <img className="test__friend" src={image}></img>
       <blockquote className="test__quote">{text}</blockquote>
-      <p className="test__name">{name}</p>
+      <h3 className="test__name">{name}</h3>
       <p className="test__role">{role}</p>
       <div className="test__btn__container">
         <button className="test__prev-btn" onClick={prevPerson}>

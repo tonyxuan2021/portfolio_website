@@ -11,6 +11,12 @@ const review = [
     desc: "A web application to browse hotels according to city name worldwide",
     image: "https://assets.codepen.io/7439974/hotel.jpg",
   },
+  {
+    id: 3,
+    title: "Industry Hackthon",
+    desc: "A 24-hour team hackthon project to rebuild existing web application features",
+    image: "https://assets.codepen.io/7439974/Hack.jpg",
+  },
 ];
 
 export default review;

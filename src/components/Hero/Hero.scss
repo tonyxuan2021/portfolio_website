@@ -8,6 +8,10 @@
         margin: 3rem 0  8rem 0;
         padding: 0 2rem;
         gap: 2rem;
+
+        @include desktop {
+            padding: 0 8.8rem;
+        }
     }
 
     &__text {
@@ -20,6 +24,10 @@
             margin-bottom: 5rem;
             padding: 0 5rem;
         }
+
+        @include desktop {
+            font-size: 2.4rem;
+        }
     }
 
     &__title {
@@ -28,6 +36,11 @@
 
         @include tablet {
             font-size: 2.8rem;
+        }
+
+        @include desktop {
+            font-size: 4.8rem;
+            margin-bottom: 6rem;
         }
     }
 

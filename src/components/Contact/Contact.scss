@@ -3,6 +3,10 @@
 
 #message {
     height: 14rem;
+
+    @include desktop {
+        height: 20rem;
+    }
 }
 
 label {
@@ -16,6 +20,10 @@ label {
 
         @include tablet {
             margin-bottom: 6rem;
+        }
+
+        @include desktop {
+            font-size: 3.6rem;
         }
     }
 

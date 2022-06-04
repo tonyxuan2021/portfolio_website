@@ -29,7 +29,7 @@ const Contact = () => {
 
   return (
     <div className="contact__wrapper">
-      <h3 className="contact__title">Get in touch</h3>
+      <h2 className="contact__title">Get in touch</h2>
       <form className="contact__form" onSubmit={sendEmail}>
         <div className="contact__input__wrapper--top">
           <div className="contact__input__wrapper">
