@@ -20,6 +20,11 @@
 
     }
 
+    &__link {
+        color: white;
+        text-decoration: none;
+    }
+
     &__icon {
         display: flex;
         gap: 2rem;

@@ -1,6 +1,7 @@
 import "./Header.scss";
 
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Header extends Component {
   state = {
@@ -19,7 +20,9 @@ class Header extends Component {
 
     return (
       <div className="header__wrapper">
-        <p>xuanye.ca</p>
+        <Link to="/" className="header__address">
+          xuanye.ca
+        </Link>
         <div className="header__nav">
           <a
             href="/#"
@@ -31,14 +34,20 @@ class Header extends Component {
             <span className="header__bar"></span>
           </a>
 
-          {isActive && <ul>
-            <li>
-              <a href="/#portfolio">Portfolio</a>
-            </li>
-            <li>
-              <a href="/#">Contact me</a>
-            </li>
-          </ul>}
+          <div
+            className={`${
+              isActive ? "header__link header__link--show" : "header__link"
+            }`}
+          >
+            <ul className="header__link__tablet">
+              <li>
+                <a href="/#portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="/#contact">Contact me</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     );

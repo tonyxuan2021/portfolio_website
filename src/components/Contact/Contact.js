@@ -4,7 +4,6 @@ import "./Contact.scss";
 
 const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY
 
-console.log(publicKey)
 
 const Contact = () => {
   const sendEmail = (e) => {
@@ -29,7 +28,7 @@ const Contact = () => {
 
   return (
     <div className="contact__wrapper">
-      <h2 className="contact__title">Get in touch</h2>
+      <h2 className="contact__title" id="contact">Get in touch</h2>
       <form className="contact__form" onSubmit={sendEmail}>
         <div className="contact__input__wrapper--top">
           <div className="contact__input__wrapper">
