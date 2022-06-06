@@ -10,7 +10,7 @@
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
-        height: 600px;
+        height: 100%;
         border: 1px solid lightgray;
         margin-bottom: 5rem;
 
@@ -20,6 +20,7 @@
 
         @include desktop {
             padding: 4rem 8.8rem;
+            height: 90vh;
         }
     }
 
@@ -29,6 +30,10 @@
         border-radius: 50%;
         border: 1px solid lightgray;
         margin-bottom: 3rem;
+
+        @include desktop {
+            width: 100px;
+        }
     }
 
     &__quote {
@@ -37,7 +42,7 @@
         font-size: 2rem;
 
         @include desktop {
-            width: 50%;
+            width: 60%;
             line-height: 2;
         }
     }
