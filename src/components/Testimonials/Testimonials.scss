@@ -29,6 +29,7 @@
         border-radius: 50%;
         border: 1px solid lightgray;
         margin-bottom: 3rem;
+        margin-top: 2rem;
 
         @include desktop {
             width: 100px;
@@ -52,7 +53,7 @@
     }
 
     &__title {
-        margin-bottom: 6rem;
+        margin-bottom: 2rem;
 
         @include desktop {
             font-size: 3.6rem;

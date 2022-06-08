@@ -6,9 +6,13 @@ import uniqid from "uniqid";
 const Portfolio = () => {
   return (
     <div className="portfolio">
-      <h2 className="portfolio__header" id="portfolio">
-        My Portfolio Projects
-      </h2>
+      <div>
+        <h2 className="portfolio__header" id="portfolio">
+          My Portfolio Projects
+        </h2>
+        <div className="underline"></div>
+      </div>
+
       <div className="portfolio__wrapper">
         {portfolioData &&
           portfolioData.map((dataObj) => {

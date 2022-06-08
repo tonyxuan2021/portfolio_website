@@ -2,19 +2,13 @@ import React from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.scss";
 
-const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY
-
+const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
 
 const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm(
-        "service_zczp6la",
-        "template_kwcpqsd",
-        e.target,
-        publicKey
-      )
+      .sendForm("service_zczp6la", "template_kwcpqsd", e.target, publicKey)
       .then(
         (result) => {
           console.log(result.text);
@@ -28,7 +22,12 @@ const Contact = () => {
 
   return (
     <div className="contact__wrapper">
-      <h2 className="contact__title" id="contact">Get in touch</h2>
+      <div>
+        <h2 className="contact__title" id="contact">
+          Get in touch
+        </h2>
+        <div className="underline"></div>
+      </div>
       <form className="contact__form" onSubmit={sendEmail}>
         <div className="contact__input__wrapper--top">
           <div className="contact__input__wrapper">

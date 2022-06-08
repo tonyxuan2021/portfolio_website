@@ -34,7 +34,10 @@ const Testimonials = () => {
 
   return (
     <div className="test__wrapper">
-      <h2 className="test__title">Testimonials</h2>
+      <div>
+        <h2 className="test__title">Testimonials</h2>
+        <div className="underline"></div>
+      </div>
       <img className="test__friend" src={image}></img>
       <blockquote className="test__quote">
         {readMore ? text : `${text.substring(0, 200)}...`}

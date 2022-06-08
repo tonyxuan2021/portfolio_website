@@ -26,6 +26,14 @@
         margin-top: 1.2rem;
         color: white;
         text-decoration: none;
+
+        // &:hover {
+
+        //     @include tablet {
+        //         border-bottom: 1px solid white;
+        //         margin-bottom: -1px;
+        //     }
+        // }
     }
 
     &__nav {
