@@ -6,6 +6,7 @@ import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
 const Testimonials = () => {
   const [index, setIndex] = useState(0);
   const { name, role, text, image } = people[index];
+  const [readMore, setReadMore] = useState(false);
 
   const checkNumber = (number) => {
     if (number > people.length - 1) {
@@ -35,7 +36,12 @@ const Testimonials = () => {
     <div className="test__wrapper">
       <h2 className="test__title">Testimonials</h2>
       <img className="test__friend" src={image}></img>
-      <blockquote className="test__quote">{text}</blockquote>
+      <blockquote className="test__quote">
+        {readMore ? text : `${text.substring(0, 200)}...`}
+        <button className="test__btn" onClick={() => setReadMore(!readMore)}>
+          {readMore ? `show less` : `read more`}
+        </button>
+      </blockquote>
       <h3 className="test__name">{name}</h3>
       <p className="test__role">{role}</p>
       <div className="test__btn__container">

@@ -1,5 +1,4 @@
-
-@use "../../styles/mixins" as *;
+@use "../../styles/mixins"as *;
 
 .test {
     &__wrapper {
@@ -69,7 +68,8 @@
         gap: 3rem;
     }
 
-    &__prev-btn, &__next-btn {
+    &__prev-btn,
+    &__next-btn {
         margin-top: 2rem;
         background-color: transparent;
         border: none;
@@ -80,5 +80,20 @@
         @include desktop {
             font-size: 3.5rem;
         }
+    }
+
+    &__btn {
+        color: rgba(0, 0, 0, 0.6);
+        border: 1px solid lightgray;
+        font-weight: 300;
+        font-size: 1.6rem;
+        background-color: #ffb703;
+        text-decoration: none;
+        border-radius: 30px;
+        padding: 0.5rem;
+        margin: 2rem;
+        cursor: pointer;
+        width: 20%;
+        // margin-left: 40%;
     }
 }
