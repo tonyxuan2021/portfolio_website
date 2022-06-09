@@ -19,7 +19,7 @@ label {
         margin-bottom: 2rem;
 
         @include tablet {
-            margin-bottom: 6rem;
+            margin-bottom: 2rem;
         }
 
         @include desktop {
@@ -40,6 +40,7 @@ label {
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
+        margin-top: 4rem;
     }
 
     &__input {

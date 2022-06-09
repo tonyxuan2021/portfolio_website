@@ -40,7 +40,7 @@ const Testimonials = () => {
       </div>
       <img className="test__friend" src={image}></img>
       <blockquote className="test__quote">
-        {readMore ? text : `${text.substring(0, 200)}...`}
+        {readMore ? text : `${text.substring(0, 150)}...`}
         <button className="test__btn" onClick={() => setReadMore(!readMore)}>
           {readMore ? `show less` : `read more`}
         </button>
