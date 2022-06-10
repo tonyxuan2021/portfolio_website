@@ -19,7 +19,7 @@
 
         @include desktop {
             padding: 4rem 8.8rem;
-            height: 90vh;
+            height: 110vh;
         }
     }
 
@@ -95,6 +95,10 @@
         margin: 2rem;
         cursor: pointer;
         width: 30%;
+
+        @include tablet {
+            width: 20%;
+        }
         // margin-left: 40%;
     }
 }

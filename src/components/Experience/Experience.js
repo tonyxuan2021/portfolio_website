@@ -41,14 +41,14 @@ const Experience = () => {
         })}
       </div>
       <div className="exp__job">
-        <h3 className="exp__title">{title}</h3>
+        <h3 className="exp__role">{title}</h3>
         <h4>{compnay}</h4>
         <p className="exp__date">{dates}</p>
         <div className="exp__duty__wrapper">
           {duties.map((duty) => {
             return (
               <div className="exp__duty">
-                <ImCheckmark2 className="exp__icon" />
+                {/* <ImCheckmark2 className="exp__icon" /> */}
                 <p className="exp__text">{duty}</p>
               </div>
             );

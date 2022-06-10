@@ -24,7 +24,7 @@ const Portfolio = () => {
                   <p className="portfolio__overlay__text">{dataObj.desc}</p>
                   <a
                     className="portfolio__overlay__link"
-                    href="https://www.google.com/"
+                    href={dataObj.link}
                   >
                     Visit Website
                   </a>
