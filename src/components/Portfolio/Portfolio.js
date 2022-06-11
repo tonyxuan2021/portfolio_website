@@ -2,6 +2,7 @@ import "./Portfolio.scss";
 import React, { useState } from "react";
 import portfolioData from "../../data/portfolioData";
 import uniqid from "uniqid";
+import { GoLinkExternal, GoMarkGithub } from "react-icons/go";
 
 const Portfolio = () => {
   return (
@@ -22,12 +23,20 @@ const Portfolio = () => {
                 <img className="portfolio__img" src={dataObj.image}></img>
                 <div className="portfolio__overlay portfolio__overlay--background">
                   <p className="portfolio__overlay__text">{dataObj.desc}</p>
-                  <a
+                  {/* <a
                     className="portfolio__overlay__link"
                     href={dataObj.link}
                   >
                     Visit Website
-                  </a>
+                  </a> */}
+                  <div className="portfolio__link__wrapper">
+                    <a href={dataObj.link}>
+                      <GoLinkExternal className="portfolio__link__icon" />
+                    </a>
+                    <a href={dataObj.github}>
+                      <GoMarkGithub className="portfolio__link__icon" />
+                    </a>
+                  </div>
                 </div>
               </div>
             );
