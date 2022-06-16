@@ -18,12 +18,11 @@ const review = [
   },
   {
     id: 3,
-    title: "Industry Hackthon",
-    desc: "A 24-hour team hackthon project to rebuild existing web application features",
-    image: "https://assets.codepen.io/7439974/Hack.jpg",
-    link: "https://book-town.herokuapp.com/",
-    github:
-      "https://github.com/tonyxuan2021/industry-project-client/tree/develop",
+    title: "Country Wikipedia",
+    desc: "A passion project to help the users search for useful information of a country",
+    image: "https://assets.codepen.io/7439974/earth.jpg",
+    link: "https://country-wikipedia.herokuapp.com/",
+    github: "https://github.com/tonyxuan2021/country-search-app",
   },
 ];
 
