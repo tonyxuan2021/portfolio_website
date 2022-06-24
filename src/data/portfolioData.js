@@ -32,6 +32,14 @@ const review = [
     link: "https://github-user-engine.herokuapp.com/",
     github: "https://github.com/tonyxuan2021/github-user-search",
   },
+  {
+    id: 5,
+    title: "Movie App",
+    desc: "A web application that allow user to login and browse their bookmarked movies",
+    image: "https://assets.codepen.io/7439974/movie.jpg",
+    link: "https://movie-entertain.herokuapp.com/",
+    github: "https://github.com/tonyxuan2021/movie-entertainment-app",
+  },
 ];
 
 export default review;
