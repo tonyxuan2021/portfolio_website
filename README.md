@@ -3,7 +3,7 @@
 
 This is a personal portfolio web application. The purpose of this project is for dispalying personal information, as well as showing off the portfolio projects I have built that makes me proud.
 
-## Deployment
+## Install Dependencies
 
 To deploy this project run
 
