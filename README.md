@@ -11,7 +11,6 @@ To deploy this project run
   npm i && npm start
 ```
 
-
 ## Features
 
 - Experience section tab toggle

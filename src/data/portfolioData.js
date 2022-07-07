@@ -41,6 +41,15 @@ const review = [
     github:
       "https://github.com/tonyxuan2021/BrainStation_Hackthon_new/tree/develop",
   },
+  {
+    id: 6,
+    title: "Amazon.com clone",
+    desc: "Amazon site clone (Under construction)",
+    image: "https://assets.codepen.io/7439974/amazon.jpg",
+    link: "https://www.google.ca/",
+    github:
+      "https://github.com/bugatti12345/amazon-clone",
+  },
 ];
 
 export default review;
