@@ -1,6 +1,14 @@
 const review = [
   {
     id: 1,
+    title: "The Booktown",
+    desc: "A full-stack web application to buy and sell books",
+    image: "https://assets.codepen.io/7439974/bookpic.jpg",
+    link: "https://book-town.herokuapp.com/",
+    github: "https://github.com/tonyxuan2021/xuan-ye-the-booktown-frontend",
+  },
+  {
+    id: 2,
     title: "Movie App",
     desc: "A full-stack web application for user to login and browse their favoriate shows",
     image: "https://assets.codepen.io/7439974/movie.jpg",
@@ -9,7 +17,7 @@ const review = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "Country Wikipedia",
     desc: "A frontend web application for the users to search for countiries info",
     image: "https://assets.codepen.io/7439974/earth.jpg",
@@ -17,21 +25,14 @@ const review = [
     github: "https://github.com/tonyxuan2021/country-search-app",
   },
   {
-    id: 3,
+    id: 4,
     title: "Github Devfinder",
     desc: "A frontend web application to find web developers worldwide",
     image: "https://assets.codepen.io/7439974/github.jpg",
     link: "https://github-user-engine.herokuapp.com/",
     github: "https://github.com/tonyxuan2021/github-user-search",
   },
-  {
-    id: 4,
-    title: "The Booktown",
-    desc: "A full-stack web application to buy and sell books",
-    image: "https://assets.codepen.io/7439974/bookpic.jpg",
-    link: "https://book-town.herokuapp.com/",
-    github: "https://github.com/tonyxuan2021/xuan-ye-the-booktown-frontend",
-  },
+
   {
     id: 5,
     title: "The Hotel Finder",
