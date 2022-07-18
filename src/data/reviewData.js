@@ -9,10 +9,9 @@ const review = [
   {
     id: 2,
     name: "Carolaine Bonk",
-    role: "Web dev graduate, BrainStation (March 2022, Remote), Web 3.0 enthusiast, lifelong friend of Tony",
-    text: `"Tony has completely surpassed our expectations as a teammate from the InStock team project. I STRONGLY recommend Tony to EVERYONE interested in hiring a full stack web developer. Tony will be a great asset to your team!"`,
+    role: "Tony is synonymous of great leadership and hard work! We had the opportunity to work together in a hackathon and a group project during BrainStation Bootcamp. Both on the hackathon and in our InStock team; Tony was always able to accomplish 120%. He was always skilled and proficient while working alongside an agile team and overall as a full stack web developer. His kind demeanor and natural sense of leadership made a great difference during our team projects. I would be more than happy to work with him again in any scenario because he truly is an amazing professional to work with.",
     image: "https://assets.codepen.io/7439974/Carol.jpg",
-  }
+  },
 ];
 
 export default review;
