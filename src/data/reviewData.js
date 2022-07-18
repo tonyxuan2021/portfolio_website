@@ -9,7 +9,8 @@ const review = [
   {
     id: 2,
     name: "Carolaine Bonk",
-    role: "Tony is synonymous of great leadership and hard work! We had the opportunity to work together in a hackathon and a group project during BrainStation Bootcamp. Both on the hackathon and in our InStock team; Tony was always able to accomplish 120%. He was always skilled and proficient while working alongside an agile team and overall as a full stack web developer. His kind demeanor and natural sense of leadership made a great difference during our team projects. I would be more than happy to work with him again in any scenario because he truly is an amazing professional to work with.",
+    role: "Web dev graduate, BrainStation (March 2022, Remote), lifelong friend of Tony",
+    text: "Tony is synonymous of great leadership and hard work! We had the opportunity to work together in a hackathon and a group project during BrainStation Bootcamp. Both on the hackathon and in our InStock team; Tony was always able to accomplish 120%. He was always skilled and proficient while working alongside an agile team and overall as a full stack web developer. His kind demeanor and natural sense of leadership made a great difference during our team projects. I would be more than happy to work with him again in any scenario because he truly is an amazing professional to work with.",
     image: "https://assets.codepen.io/7439974/Carol.jpg",
   },
 ];
