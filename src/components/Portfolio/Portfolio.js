@@ -30,10 +30,18 @@ const Portfolio = () => {
                     Visit Website
                   </a> */}
                   <div className="portfolio__link__wrapper">
-                    <a href={dataObj.link}>
+                    <a
+                      href={dataObj.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <GoLinkExternal className="portfolio__link__icon" />
                     </a>
-                    <a href={dataObj.github}>
+                    <a
+                      href={dataObj.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <GoMarkGithub className="portfolio__link__icon" />
                     </a>
                   </div>
