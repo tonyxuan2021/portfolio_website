@@ -4,7 +4,7 @@ const jobData = [
     title: "Web Development diploma program graduate",
     dates: "March 8 2022 - May 27 2022",
     duties: [
-      "Complete a capstone project, which is a full-stack e-commerce web application built using React, Node.js, and MySql database. It allows the users to buy and sell books.",
+      "Complete a capstone project, which is a full-stack e-commerce web application built using React, Node.js, and MySql database. It allows the users to buy books.",
       "Build a full-stack, CRUD web application to allow users to manage warehouse inventory using Agile approach under a team environment. This application is built using React and Node.js.",
       "Build a hotel search engine, which is a frontend web application that allow users to find information of their favoriate hotels worldwide, this application is built using pair-parogramming approach.",
     ],
@@ -36,6 +36,5 @@ const jobData = [
     company: "ZK & Associates",
   },
 ];
-
 
 export default jobData;
